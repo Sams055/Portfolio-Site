@@ -1,0 +1,44 @@
+.topTitle {
+	background-color: #000000;
+	color: rgb(255, 255, 255);
+	font-family: "Times New Roman", cursive;
+	text-align: center;
+	font-size: 50px;
+}
+
+body {
+	font-family: calibri, arial, verdana, serif;
+	font-weight: normal;
+	font-size: 12pt;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}
+
+.bg-image {
+	background-image: url("../assets/alien_planet.jpg");
+  
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+
+	height: 100%;
+  
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .bg-text {
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	color: white;
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+  }
